@@ -13,7 +13,7 @@ def speak_news(articles):
 
 if __name__ == '__main__':
     #geting the data using news api news api
-    news = requests.get("https://newsapi.org/v2/top-headlines?source=bbc_news&country=us&apiKey=f44fe3073fa348b488d0c8ba983d8ef9")
+    news = requests.get("https://newsapi.org/v2/top-headlines?source=bbc_news&country=us&apiKey=")
     # parsing the data into json format
     json_news = news.json()
 
